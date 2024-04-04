@@ -14,3 +14,8 @@ sudo apt-get install gcc -y
 - Após compilar o programa usar o comando ./nomeDoArquivoParaExecutar
 
 O código usa um “mutex” para garantir que a função de transferência não seja acessada simultaneamente por várias threads. Além disso, o código consome várias chamadas de sistema, como clone, malloc e free, para gerenciar processos e memória. O uso dessas chamadas de sistema é otimizado, pois clone é usado com flags que especificam o que deve ser compartilhado com o processo filho, e malloc e free são usados para alocar e desalocar memória conforme necessário.
+
+
+## Execução do Programa
+
+![image](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/53952323/574bfd5c-c505-4899-9d6f-2f61e2f5bea9)
