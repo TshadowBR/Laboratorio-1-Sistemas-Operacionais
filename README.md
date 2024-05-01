@@ -13,9 +13,12 @@ sudo apt-get install gcc -y
 ## Executar o programa
 - Após compilar o programa usar o comando ./nomeDoArquivoParaExecutar
 
-O código usa um “mutex” para garantir que a função de transferência não seja acessada simultaneamente por várias threads. Além disso, o código consome várias chamadas de sistema, como clone, malloc e free, para gerenciar processos e memória. O uso dessas chamadas de sistema é otimizado, pois clone é usado com flags que especificam o que deve ser compartilhado com o processo filho, e malloc e free são usados para alocar e desalocar memória conforme necessário.
-
+O primeiro programa utiliza um algoritmo visto em aula para calcular Pi. O uso de Threads faz com que a tarefa seja completa em menos tempo, já que mais de uma thread pode estar ativa simultaneamente. O segundo programa adiciona Mutex, que torna a espera de threads para acesso de recursos mais controlada e mais eficiente. Assim, os tempos de espera e execução são ainda menores.
 
 ## Execução do Programa
 
-![image](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/53952323/574bfd5c-c505-4899-9d6f-2f61e2f5bea9)
+### Sem Mutex
+
+![image](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/53952323/1cf2c45a-b93a-403e-896b-f34544838f3a)
+
+### Com Mutex
