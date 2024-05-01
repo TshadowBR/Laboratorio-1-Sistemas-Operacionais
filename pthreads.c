@@ -64,7 +64,7 @@ void *Pth_mat_vect(void *rank) {
   free(A);
   free(x);
 
-  return y; // Return the pointer to the allocated memory for y
+  return y; 
 }
 
 
@@ -89,10 +89,17 @@ int main()
         double *local_y;
         pthread_join(threads[rank], (void **)&local_y);
 
-        // Combine local results into final_y (implementation depends on your specific requirements)
+       
 
         free(local_y);
     }
 
-    // Print the final result vector (implementation depends on your specific requirements)
+    printf("Final result vector: ");
+    for (int i = 0; i < 4; i++) {
+        printf("%.2f ", final_y[i]);
+    }
+    printf("\n");
+
+    free(final_y);
+    return 0;
 }
