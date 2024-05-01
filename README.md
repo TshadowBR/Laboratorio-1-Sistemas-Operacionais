@@ -3,6 +3,7 @@
 Nesta branch, será incluida o código utilizado para a realização do exercicio Lab03_A!
 
 ENUNCIADO:
+
 Na linguagem C, em sistemas Linux a criação de uma thread pode ser feita executando uma chamada à função clone()
 
 clone()
