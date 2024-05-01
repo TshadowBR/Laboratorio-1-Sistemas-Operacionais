@@ -1,21 +1,8 @@
-#Projeto 1 Sistemas Operacionais
+#Laboratório Pthreads parte 1
 
 ## Vitor Leandro Machado | 10409358 / Rodrigo Lucas Rosales | 10365071 / Gabriel Forster Souza | 10409702 / Rodrigo Mello de Campos Silva | 10409316
+##Explicação:
+O código tem o objetivo realizar uma multiplicação de matriz usando pthreads.
+## Execução do programa:
+###![image](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/129999046/258d3512-b8da-4362-9a56-040244297791)
 
-## Como compilar o programa 
-#Instalar GCC
-sudo apt-get install gcc -y
-
-#Passo a Passo
-- cd caminho/para/o/arquivo
-- gcc -o nomeDoArquivoParaExecutar projeto1.c #nomeDoArquivoParaExecutar pode ser definido por voce!
-
-## Executar o programa
-- Após compilar o programa usar o comando ./nomeDoArquivoParaExecutar
-
-O código usa um “mutex” para garantir que a função de transferência não seja acessada simultaneamente por várias threads. Além disso, o código consome várias chamadas de sistema, como clone, malloc e free, para gerenciar processos e memória. O uso dessas chamadas de sistema é otimizado, pois clone é usado com flags que especificam o que deve ser compartilhado com o processo filho, e malloc e free são usados para alocar e desalocar memória conforme necessário.
-
-
-## Execução do Programa
-
-![image](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/53952323/574bfd5c-c505-4899-9d6f-2f61e2f5bea9)
