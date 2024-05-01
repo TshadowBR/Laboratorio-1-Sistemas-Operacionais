@@ -24,6 +24,27 @@ EXERCÍCIO: Incremente o exemplo acima para representar a troca de informações
 
 LINK DO CÓDIGO: https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/blob/Lab03a/Lab03a
 
+## EXPLICAÇÃO:
+
+Esse código em C cria uma thread usando a função clone() do Linux. Aqui está um resumo do funcionamento do código:
+1. Inclui as bibliotecas necessárias.
+2. Define o tamanho da pilha para a thread (FIBER_STACK).
+3. Define a estrutura ThreadArgs para passar dados entre a thread pai e a thread filha.
+4. Define a função threadFunction, que é a função que a thread filha executará.
+5. No main():
+ *  Aloca a pilha para a thread filha.
+ *  Inicializa a estrutura ThreadArgs com os dados que serão passados para a thread filha.
+ *  Usa a função clone() para criar a thread filha. Esta função recebe como argumentos:
+ *  Ponteiro para a função que a thread filha executará.
+ *  Ponteiro para a pilha da thread filha.
+ *  Flags para definir os recursos que serão compartilhados com a thread pai.
+ *  Ponteiro para os argumentos da função da thread filha.
+ *  Aguarda a finalização da thread filha usando waitpid().
+ *  Libera a pilha alocada para a thread filha.
+ *  Imprime os dados retornados pela thread filha.
+
+Em resumo, o programa cria uma thread filha que multiplica os dados passados por 2 e os retorna para a thread pai.
+
 ## EXECUÇÃO DO CÓDIGO:
 
 ![Captura de tela 2024-05-01 194131](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/32850196/711a5486-f3fc-4341-bd76-fd2a84c04a09)
