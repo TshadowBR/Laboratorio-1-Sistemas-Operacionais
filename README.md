@@ -2,7 +2,7 @@
 
 Nesta branch, será incluida o código utilizado para a realização do exercicio Lab03_A!
 
-ENUNCIADO:
+##ENUNCIADO:
 
 Na linguagem C, em sistemas Linux a criação de uma thread pode ser feita executando uma chamada à função clone()
 
@@ -23,3 +23,7 @@ EXERCÍCIO: Incremente o exemplo acima para representar a troca de informações
 
 
 LINK DO CÓDIGO: https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/blob/Lab03a/Lab03a
+
+## EXECUÇÃO DO CÓDIGO:
+
+![Captura de tela 2024-04-09 130443](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/32850196/cf942bfe-3515-40ee-a627-c43863425a9e)
