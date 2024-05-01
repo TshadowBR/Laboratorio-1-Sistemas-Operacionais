@@ -18,3 +18,5 @@ O trecho abaixo apresenta uma criação de thread no Linux:
 
 
 ![Captura de tela 2024-05-01 192920](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/32850196/d6a7a1d8-7edf-407c-a8dc-445f333c3b96)
+
+EXERCÍCIO: Incremente o exemplo acima para representar a troca de informações de contexto entre a thread e o processo pai.
