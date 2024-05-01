@@ -22,7 +22,7 @@ O trecho abaixo apresenta uma criação de thread no Linux:
 EXERCÍCIO: Incremente o exemplo acima para representar a troca de informações de contexto entre a thread e o processo pai.
 
 
-LINK DO CÓDIGO: https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/blob/Lab03a/Lab03a
+LINK DO CÓDIGO: https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/blob/Lab03a/Lab03_A.c
 
 ## EXPLICAÇÃO:
 
