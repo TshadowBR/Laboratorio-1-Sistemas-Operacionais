@@ -10,6 +10,7 @@ clone()
 Faz uma cópia compartilhada do processo (similar ao fork) mas mantém uma área de memória compartilhada.
 
 Em sistemas Linux utilizamos o termo task para se referir a processos e threads. A principal diferença é o tipo de recurso que será compartilhado.
+
 ![clone](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/32850196/f1ff67e7-e79a-4430-8470-42001fbd01f7)
 
 O trecho abaixo apresenta uma criação de thread no Linux:
