@@ -93,6 +93,13 @@ int main()
 
         free(local_y);
     }
+printf("Final result vector: ");
+    for (int i = 0; i < 4; i++) {
+        printf("%.2f ", final_y[i]);
+    }
+    printf("\n");
 
-    // Print the final result vector (implementation depends on your specific requirements)
+    free(final_y);
+    return 0;
+    
 }
