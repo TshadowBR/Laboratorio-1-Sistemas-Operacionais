@@ -18,3 +18,5 @@ Uma lista encadeada é uma representação de uma sequência de objetos, todos d
 
 6: Calcule o máximo de elementos possíveis na fila, considerando a memória disponível no computador.
 
+# Output do programa com as respostas:
+![image](https://github.com/TshadowBR/Laboratorio-1-Sistemas-Operacionais/assets/129999046/6831c536-4992-4b5f-b711-2249def34305)
