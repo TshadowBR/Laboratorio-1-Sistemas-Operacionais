@@ -20,10 +20,10 @@ int main() {
         } else {
             // A pessoa tem que esperar até que a escada rolante esteja disponível
             if (direction == d[i]) {
-                // Mesma direção, não precisa parar a escada rolante
+                // Mesma direção, a pessoa pode entrar imediatamente
                 current_time += 10;
             } else {
-                // Direção diferente, a pessoa tem que esperar
+                // Direção diferente, a pessoa tem que esperar até a escada parar e mudar de direção
                 current_time = t[i] + 10;
                 direction = d[i];
             }
