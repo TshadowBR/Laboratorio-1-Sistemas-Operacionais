@@ -5,3 +5,6 @@
 ## Como encontrar atividades
 
 Cada atividade está em sua própria branch. Basta selecionar a branch de uma atividade para visualizar o readme e arquivos respectivos.
+
+## PROJETO 2
+NESSA BRANCH ENCONTRA-SE O PROJETO 2
